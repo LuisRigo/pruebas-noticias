@@ -1,0 +1,105 @@
+
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  .jumbotron{
+	  margin-bottom:0px !important;
+	  padding-bottom:0px !important;
+	  padding-top:0px !important;
+  }
+.navbar-inverse{
+	margin-bottom:0px !important;
+}
+#imagen1{
+	  max-width:300px;
+	  max-height:200px;
+}
+#texto1{
+}
+ .imagen-responsive{
+        padding-top: 10px;
+        height: 80px;
+    }
+.center-block {
+    display: block;
+    max-width:300px;
+	max-height:150px;
+}
+
+/* ============ Media Query ============ */
+
+/* Extra Small Devices */
+@media (max-width: 767px) {
+    .advert-container{
+        width: 100%;
+        position: fixed;
+        z-index: 99999;
+        bottom: 0;
+        left: 0;
+        height: 90px;
+        background-color: #B40431;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 10px;
+        height: 80px;
+    }
+
+}
+
+/* Small Devices Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-container{
+        width: calc(100% - 200px);;
+    }
+
+    .advert-container{
+        width: 200px;
+        margin-top: 20px;
+        background-color: #B40431;
+        float:right;
+    }
+
+    .advert-container p{
+        padding-top: 10px;
+        color: #000;
+        font-family: Arial;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 20px;
+    }
+
+    .advert-container .imagen p{
+        padding-top: 5px;
+    }
+}
+
+/* Medium and Large Devices Desktops */
+@media (min-width: 992px) { 
+    .main-container{
+        width: calc(100% - 300px);;
+    }
+
+    .advert-container{
+        width: 300px;
+        margin-top: 20px;
+        background-color: #B40431;
+        float:right;
+    }
+
+    .advert-container p{
+        padding-top: 10px;
+        color: #000;
+        font-family: Arial;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 20px;
+    }
+
+    .advert-container .imagen p{
+        padding-top: 5px;
+    }
+}
